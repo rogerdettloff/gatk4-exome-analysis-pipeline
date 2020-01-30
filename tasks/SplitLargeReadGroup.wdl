@@ -18,7 +18,7 @@ version 1.0
 import "https://raw.githubusercontent.com/gatk-workflows/gatk4-exome-analysis-pipeline/dev/tasks/Alignment.wdl" as Alignment
 import "https://raw.githubusercontent.com/gatk-workflows/gatk4-exome-analysis-pipeline/dev/tasks/BamProcessing.wdl" as Processing
 import "https://raw.githubusercontent.com/gatk-workflows/gatk4-exome-analysis-pipeline/dev/tasks/Utilities.wdl" as Utils
-import "https://raw.githubusercontent.com/gatk-workflows/gatk4-exome-analysis-pipeline/dev/structs/GermlineStructs.wdl"
+import "https://raw.githubusercontent.com/gatk-workflows/gatk4-exome-analysis-pipeline/dev/structs/GermlineStructs.wdl" as Structs
 
 workflow SplitLargeReadGroup {
   input {
