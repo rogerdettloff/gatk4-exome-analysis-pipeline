@@ -28,7 +28,7 @@ version 1.0
 ## page at https://hub.docker.com/r/broadinstitute/genomes-in-the-cloud/ for detailed
 ## licensing information pertaining to the included programs.
 
-import "https://github.com/rogerdettloff/gatk4-exome-analysis-pipeline/blob/1.2.1/tasks/UnmappedBamToAlignedBam.wdl" as ToBam
+import "https://raw.githubusercontent.com/rogerdettloff/gatk4-exome-analysis-pipeline/1.2.1/tasks/UnmappedBamToAlignedBam.wdl" as ToBam
 import "https://raw.githubusercontent.com/gatk-workflows/gatk4-exome-analysis-pipeline/1.2.0/tasks/AggregatedBamQC.wdl" as AggregatedQC
 import "https://raw.githubusercontent.com/gatk-workflows/gatk4-exome-analysis-pipeline/1.2.0/tasks/Qc.wdl" as QC
 import "https://raw.githubusercontent.com/gatk-workflows/gatk4-exome-analysis-pipeline/1.2.0/tasks/BamProcessing.wdl" as Processing
