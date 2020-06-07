@@ -30,7 +30,7 @@ version 1.0
 
 import "https://raw.githubusercontent.com/rogerdettloff/gatk4-exome-analysis-pipeline/1.2.1/tasks/UnmappedBamToAlignedBam.wdl" as ToBam
 import "https://raw.githubusercontent.com/gatk-workflows/gatk4-exome-analysis-pipeline/1.2.0/tasks/AggregatedBamQC.wdl" as AggregatedQC
-import "https://raw.githubusercontent.com/gatk-workflows/gatk4-exome-analysis-pipeline/1.2.0/tasks/Qc.wdl" as QC
+import "https://raw.githubusercontent.com/rogerdettloff/gatk4-exome-analysis-pipeline/1.2.1/tasks/Qc.wdl" as QC
 import "https://raw.githubusercontent.com/gatk-workflows/gatk4-exome-analysis-pipeline/1.2.0/tasks/BamProcessing.wdl" as Processing
 import "https://raw.githubusercontent.com/gatk-workflows/gatk4-exome-analysis-pipeline/1.2.0/tasks/BamToCram.wdl" as ToCram
 import "https://raw.githubusercontent.com/gatk-workflows/gatk4-exome-analysis-pipeline/1.2.0/tasks/VariantCalling.wdl" as ToGvcf
